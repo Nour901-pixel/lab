@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styleHomePage.css">
+    
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+<header class="header">
+
+    <a href="home.html" class="logo"> 
+        <div class="logo-container">
+            <img src="img/Apollo.jpg" alt="Logo" class="logo">
+            <img src="img/name logo.png" alt="Mountain Travel" class="site-name">
+        </div>
+    </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="#">Class Levels +</a>
+                <ul>
+                    <li><a href="#">1st year</a></li>
+                    <li><a href="Class Levels.html">2nd year</a></li>
+                    <li><a href="#">3rd year</a></li>
+                    <li><a href="#">4th year</a></li>
+                </ul>
+            </li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li>
+                <button class="btn" onclick="window.location.href='index.html'">Log Out</button>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="heading">
+    <h3>2nd Year</h3>
+    <p> <a href="home.html">home >></a> <a href="Class Levels.html">2nd year>></a><a href="english.html">Science : English>></a> unit 2 (Communication)</p>
+</section>
+
+<!-- home section ends -->
+
+<!-- courses section starts -->
+<section class="courses">
+  <div class="course-list">
+      <h1>Courses in Unit 2</h1>
+      <div class="course-cards">
+          <div class="course-card" onclick="loadCourse('friendship')">
+              <span class="course-name">Friendship</span>
+          </div>
+          <div class="course-card" onclick="loadCourse('bridge')">
+              <span class="course-name">Bridge Over Troubled</span>
+          </div>
+          <div class="course-card" onclick="loadCourse('emailer')">
+              <span class="course-name">Emailer vs Texter</span>
+          </div>
+          <div class="course-card" onclick="loadCourse('travel')">
+              <span class="course-name">Travel is Fun</span>
+          </div>
+      </div>
+  </div>
+  <div class="course-content" id="courseContent">
+      <h2>Select a course to see the content</h2>
+  </div>
+</section>
+<!-- courses section ends -->
+
+
+<!-- footer section starts  -->
+<footer>
+    <p>© 2024 Copyright Schools. All rights reserved.</p>
+</footer>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="scriptHomePage.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ApoLearn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Quicksand:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+</head>
+<body>
+
+    <audio autoplay loop>
+        <source src="background-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/Apollo.jpg" alt="Logo" class="logo">
+            <img src="img/name logo.png" alt="Mountain Travel" class="site-name">
+        </div>
+    </header>
+    <section class="hero">
+        <div class="background-image"></div>
+        <div class="hero-content-area">
+            <h1>Apollo School</h1>
+            <h3>Private middle and high school focused on excellence, growth, and positivity</h3>
+            <a href="#" class="btn">Sign up</a>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <h1 class="title">PARENTS' OPINION</h1>
+        <hr>
+        <div id="slideContainer">
+            <button id='prev' class="sliderBtn">&lt;
+            <button id="next" class="sliderBtn">&gt;</button>
+            </button>
+            <div class="slide show">
+              <img src="img/client2.png" alt="slide1" />
+            </div>
+            <div class="slide">
+              <img src="img/client4.png" alt="slide6" />
+            </div>
+            <div class="slide">
+              <img src="img/client5.png" alt="slide6" />
+            </div>
+            <div class="slide">
+              <img src="img/client6.png" alt="slide4" />
+            </div>
+            <div class="slide">
+            <img src="img/client7.png" alt="slide4" />
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <form id="contactForm">
+            <input type="email" id="emailInput" placeholder="Email" required>
+            <a href="#" class="btn" id="signInButton">Sign in</a>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100057477248415&locale=fr_FR">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </li>
+        </ul>
+        <p>
+            <i class="bi bi-geo-alt"></i> Address: El Oulija , 2040 Radès
+        </p>
+        <p>
+            <i class="bi bi-telephone"></i> Phone: +216 50 42 76 00
+        </p>
+        <br>
+        <p style="color: rgba(10, 10, 10, 0.6);">© 2024 Copyright Schools. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
